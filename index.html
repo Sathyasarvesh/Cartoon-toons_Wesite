@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Document</title>
+    <style>
+        #videos,#contact{
+            padding-top:50px;height:100%;
+            /* background-color: antiquewhite;  */
+        }
+        body{
+          background:linear-gradient(-60deg,rgb(45, 107, 78),rgb(56, 40, 40));
+        }
+        .nav-link:hover{
+          border-bottom: 1px solid white;
+        }
+        .odd{
+          color:white;
+        }
+        .even{
+          color:black;
+        }
+        #image{
+          padding-bottom:50px;
+          padding-top:50px;
+        }
+        .add{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            /* text-align: center; */
+            color: #dae6da;
+            font-weight:bold ;
+            /* background-color: antiquewhite; */
+            border-radius: 20px;
+            display:flex;
+            justify-content: center;
+        }
+        input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 15px;
+  background-color: #e7f5f5;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  /* width: 50%; */
+  margin-top: 6px;
+  padding: 20px;
+}
+input,select,textarea{
+  border-radius: 15px;
+  /* font-weight: bold; */
+  border:1px solid black;
+}
+label{
+  font-weight: bold;
+  
+}
+th,td{
+  color:#0b6868
+}
+.header{
+          /* background: linear-gradient(30deg,rgb(35, 34, 122),rgb(135, 17, 165)); */
+          background:linear-gradient(-60deg,rgb(45, 107, 78),rgb(56, 40, 40));
+}
+    </style>
+</head>
+<body>
+    <header class="col-sm-12 sticky-top header">
+        <div class="row rounded">
+            <div class="col-sm-2 pt-2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQtrxbw8ecbrygYAMyZmrUXYDZPpvHjtbFjg&usqp=CAU" class="rounded" alt="Cinque Terre" width="60%">
+            </div>
+            <div class="col-sm-10 ">
+                <div id="header" class="row">
+                    <nav class="navbar navbar-expand-sm ml-auto">
+                        <b>
+                        <ul class="navbar-nav" style="font-size: 20px;">
+                          <li class="nav-item thumbnail" style="border-radius: 15px;">
+                            <a class="nav-link p-3 text-white" href="#home">Home</a>
+                          </li>&nbsp;
+                          <li class="nav-item thumbnail  " style="border-radius: 15px;">
+                            <a class="nav-link p-3 text-white" href="#image">Images</a>
+                          </li>&nbsp;
+                          <li class="nav-item thumbnail text-white " style="border-radius: 15px;">
+                            <a class="nav-link p-3 text-white" href="#videos">Videos</a>
+                          </li>&nbsp;
+                          <li class="nav-link thumbnail ">
+                            <a href="#contact" type="button" class="btn justify-content-center text-white" style="font-size:20px;font-weight: bold;"><b>Contact</b></a>
+                          </li>
+                        </ul></b>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+<div id="home"class="col-sm-12">
+  <h1 id="title" class="text-center" style="padding-top:0px;padding-bottom:0px;font-size:60px;font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"><b class="odd">C</b><b class="even">A</b><b class="odd">R</b><b class="even">T</b><b class="odd">O</b><b class="even">O</b><b class="odd">N</b> <b class="even">N</b><b class="odd">E</b><b class="even">T</b><b class="odd">W</b><b class="even">O</b><b class="odd">R</b><b class="even">K</b><b class="odd">S</b></h1>
+    <marquee direction="left" scrollamount="20" class="text-center text-white text-uppercase" style="font-family:Copperplate, Papyrus, fantasy; font-weight:bold;font-size: large; padding-bottom: 20px;">Built  From  a  Best  Toons</marquee>
+      <p class="text-justify text-white p-b-3" style="padding:0px 20%; font-family:Brush Script, cursive;font-weight:bold; font-size:30px; color:rgb(59, 49, 40)">Cartoon Network (often abbreviated as CN) is an American cable television channel owned by The Cartoon Network, Inc., a division of the Kids, Young Adults and Classics division of Warner Bros. Entertainment, itself a subsidiary of AT&T's WarnerMedia through its Studios and Networks Group division.</p>
+        <div class="row">
+        <!-- <div class="col-sm-1"></div> -->
+        <div class="col-sm-3:hover pl-5 pt-3">
+        <img id="one" class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOnZGUZQZu_L6QHxUkhL4eBnNdgd9ln09Ytg&usqp=CAU" height='70%' width="100%">
+        </div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-8 pt-3 pt-3">
+        <p class=" text-justify text-white p-2" style="font-weight:25px;font-size:20px;font-family: Arial, Helvetica, sans-serif">On October 1, 1992, The Cartoon Network launched to the finale of Tchaikovsky's 1812 Overture with a backdrop of cartoon explosions, followed by a special event called Droopy's Guide to the Cartoon Network hosted by the Metro-Goldwyn-Mayer's Tom & Jerry cartoon character Droopy, during which the first cartoon on the network, Rhapsody Rabbit, was shown. Initial programming on the channel consisted exclusively of reruns of Warner Bros. cartoons (the pre-1948 Looney Tunes and Merrie Melodies), the 1933–1957 Popeye cartoons, MGM cartoons, and Hanna-Barbera cartoons. At first, cable providers in New York City, Philadelphia, Washington, D.C., Dallas, and Detroit carried the channel. By the time the network launched, Cartoon Network had an 8,500-hour cartoon library. From its launch until 1995, the network's announcers said the network's name with the word "The" added before "Cartoon Network," thus calling the network "The Cartoon Network." By the time that the network debuted, Cartoon Network also operated a programming block (containing its cartoons) that aired on TNT, entitled "Cartoon Network on TNT."</p>
+        </div>
+    </div>
+  </div>
+  <div id="image">
+      <div class="col-sm-12" > 
+        <div class="row pt-5 justify-content-center">
+            <div id="myCarousel" class="carousel slide col-sm-5" data-ride="carousel ">
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ul>
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active ">
+                    <img src="https://www.animationmagazine.net/wordpress/wp-content/uploads/the-tom-and-jerry-show-post.jpg" alt="Tom & Jerry">
+                    <div class="carousel-caption">
+                        <div class="animated fadeInDown">
+                          <h3 class="h3-responsive text-dark"><b style="color:black;">Tom & Jerry</b></h3>
+                        </div>
+                      </div>
+                </div>
+                  <div class="carousel-item">
+                    <img src="https://bouncycastlenetwork-res.cloudinary.com/image/upload/f_auto,q_auto,c_limit,w_1000/77a25c81cf69d6c53e88b6be0a283b12" alt="Mickey">
+                    <div class="carousel-caption">
+                        <div class="animated fadeInDown">
+                          <h3 class="h3-responsive" style="color:white; text-align: end;"><b>Mickey Mouse</b></h3>
+                        </div>
+                      </div>
+                </div>
+                  <div class="carousel-item">
+                    <img src="https://cdn.akamai.steamstatic.com/steam/apps/965230/capsule_616x353.jpg?t=1630580313" alt="Doraeman">
+                    <div class="carousel-caption">
+                        <div class="animated fadeInDown">
+                          <h3 class="h3-responsive"><b style="color:black;">Doraeman</b></h3>
+                        </div>
+                      </div>
+                </div>
+                </div>
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+              </div>
+        </div>
+        <div class="col-sm-10 p-3"><h1></h1></div>
+    </div>
+</div>    
+<div id="videos">
+    <div class="col-sm-12">
+        <div class="row p-3">
+            <div class="col-sm-4 embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item p-1" src="https://www.youtube.com/embed/jluiK6oCxD4" allowfullscreen></iframe>
+              </div>
+              <div class="col-sm-4 embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item p-1" src="https://www.youtube.com/embed/mK841UjRhr0" allowfullscreen></iframe>
+              </div>
+              <div class="col-sm-4 embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item p-1" src="https://www.youtube.com/embed/HddLzWAxhtk" allowfullscreen></iframe>
+              </div>
+        </div></div>
+        <div class="col-sm-12">
+        <div class="row p-3">
+            <div class="col-sm-6 embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item p-1" src="https://www.youtube.com/embed/8J8duDMyoUw" allowfullscreen></iframe>
+              </div>        
+              <div class="col-sm-6 embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item p-1" src="https://www.youtube.com/embed/Lvd7zQtKS74" allowfullscreen></iframe>
+              </div>
+        </div>
+</div>
+</div>
+<script>
+  $(document).on("submit","#form",function(e){
+    e.preventDefault(); 
+    name=$("#name").val();
+    rate=$("#rating").val();
+    feed=$("#feedback").val();
+    $("#valueres").html("<tr><th>Name</th><th>Rating</th><th>Feedback</th></tr><tr><td>"+name+"</td><td>"+rate+"</td><td>"+feed+"</td></tr>");
+  });
+</script>
+<div id="contact">
+  <div class="container pt-3 pb-3">
+    <div style="text-align:center">
+      <h2>Contact Us</h2>
+      <p>leave us a message:</p>
+    </div>
+    <div class="row">
+      <div class="col-sm-5:hover p-5">
+        <img style="border:1px solid black;border-radius: 15px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6KQ_oPTlYnPKC1hYq3VIk46lLgdsrcm7H0g&usqp=CAU" style="width:100%;padding-top: 50px; height:50%" >
+      </div>
+      <div class="col-sm-7">
+        <form id="form">
+          <label for="fname">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name.." style="border:1px solid black;">
+          <label for="rating">Rating</label>
+          <select id="rating" name="rating">
+            <option value="Very Good">Very Good</option>
+            <option value="Good">Good</option>
+            <option value="Average">Average</option>
+            <option value="Poor">Poor</option>
+          </select>
+          <label for="feedback">Feedback</label>
+          <textarea id="feedback" name="subject" placeholder="Tell about us something.." style="height:170px"></textarea>
+          <input type="submit" id="submit" value="Submit">
+        </form>
+      </div>
+      <table id="valueres" class="table"></table>
+    </div>
+  </div>
+  
+  </div>
+    
+</div>
+<!-- <marquee>  -->
+          <svg class="ml-3"width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+            <linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
+              <stop stop-color="#c86dd7" offset="0"/>
+              <stop stop-color="#3023ae" offset="100%"/>
+            </linearGradient>
+            <circle fill="url(#gradient)" cx="36" cy="36" r="20"/>
+          </svg>
+          <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+            <linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
+              <stop stop-color="#c86dd7" offset="0"/>
+              <stop stop-color="#3023ae" offset="100%"/>
+            </linearGradient>
+            <circle fill="url(#gradient)" cx="36" cy="36" r="20"/>
+          </svg>
+          <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+            <linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
+              <stop stop-color="#c86dd7" offset="0"/>
+              <stop stop-color="#3023ae" offset="100%"/>
+            </linearGradient>
+            <circle fill="url(#gradient)" cx="36" cy="36" r="20"/>
+          </svg>
+          <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+            <linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
+              <stop stop-color="#c86dd7" offset="0"/>
+              <stop stop-color="#3023ae" offset="100%"/>
+            </linearGradient>
+            <circle fill="url(#gradient)" cx="36" cy="36" r="20"/>
+          </svg>
+          <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+            <linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
+              <stop stop-color="#c86dd7" offset="0"/>
+              <stop stop-color="#3023ae" offset="100%"/>
+            </linearGradient>
+            <circle fill="url(#gradient)" cx="36" cy="36" r="20"/>
+          </svg>
+          <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+            <linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
+              <stop stop-color="#c86dd7" offset="0"/>
+              <stop stop-color="#3023ae" offset="100%"/>
+            </linearGradient>
+            <circle fill="url(#gradient)" cx="36" cy="36" r="20"/>
+          </svg>
+          <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+            <linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
+              <stop stop-color="#c86dd7" offset="0"/>
+              <stop stop-color="#3023ae" offset="100%"/>
+            </linearGradient>
+            <circle fill="url(#gradient)" cx="36" cy="36" r="20"/>
+          </svg>
+          <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+            <linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
+              <stop stop-color="#c86dd7" offset="0"/>
+              <stop stop-color="#3023ae" offset="100%"/>
+            </linearGradient>
+            <circle fill="url(#gradient)" cx="36" cy="36" r="20"/>
+          </svg>
+          <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+            <linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
+              <stop stop-color="#c86dd7" offset="0"/>
+              <stop stop-color="#3023ae" offset="100%"/>
+            </linearGradient>
+            <circle fill="url(#gradient)" cx="36" cy="36" r="20"/>
+          </svg><svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+            <linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
+              <stop stop-color="#c86dd7" offset="0"/>
+              <stop stop-color="#3023ae" offset="100%"/>
+            </linearGradient>
+            <circle fill="url(#gradient)" cx="36" cy="36" r="20"/>
+          </svg>
+          <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+            <linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
+              <stop stop-color="#c86dd7" offset="0"/>
+              <stop stop-color="#3023ae" offset="100%"/>
+            </linearGradient>
+            <circle fill="url(#gradient)" cx="36" cy="36" r="20"/>
+          </svg>
+          <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+            <linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
+              <stop stop-color="#c86dd7" offset="0"/>
+              <stop stop-color="#3023ae" offset="100%"/>
+            </linearGradient>
+            <circle fill="url(#gradient)" cx="36" cy="36" r="20"/>
+          </svg>
+          <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+            <linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
+              <stop stop-color="#c86dd7" offset="0"/>
+              <stop stop-color="#3023ae" offset="100%"/>
+            </linearGradient>
+            <circle fill="url(#gradient)" cx="36" cy="36" r="20"/>
+          </svg>
+          <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+            <linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
+              <stop stop-color="#c86dd7" offset="0"/>
+              <stop stop-color="#3023ae" offset="100%"/>
+            </linearGradient>
+            <circle fill="url(#gradient)" cx="36" cy="36" r="20"/>
+          </svg><svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+            <linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
+              <stop stop-color="#c86dd7" offset="0"/>
+              <stop stop-color="#3023ae" offset="100%"/>
+            </linearGradient>
+            <circle fill="url(#gradient)" cx="36" cy="36" r="20"/>
+          </svg>
+          <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+            <linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
+              <stop stop-color="#c86dd7" offset="0"/>
+              <stop stop-color="#3023ae" offset="100%"/>
+            </linearGradient>
+            <circle fill="url(#gradient)" cx="36" cy="36" r="20"/>
+          </svg>
+          <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+            <linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
+              <stop stop-color="#c86dd7" offset="0"/>
+              <stop stop-color="#3023ae" offset="100%"/>
+            </linearGradient>
+            <circle fill="url(#gradient)" cx="36" cy="36" r="20"/>
+          </svg>
+          <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+            <linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
+              <stop stop-color="#c86dd7" offset="0"/>
+              <stop stop-color="#3023ae" offset="100%"/>
+            </linearGradient>
+            <circle fill="url(#gradient)" cx="36" cy="36" r="20"/>
+          </svg>
+          <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+            <linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
+              <stop stop-color="#c86dd7" offset="0"/>
+              <stop stop-color="#3023ae" offset="100%"/>
+            </linearGradient>
+            <circle fill="url(#gradient)" cx="36" cy="36" r="20"/>
+          </svg>
+          <svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg">
+            <linearGradient x1="0" y1="0" x2="100%" y2="100%" id="gradient">
+              <stop stop-color="#c86dd7" offset="0"/>
+              <stop stop-color="#3023ae" offset="100%"/>
+            </linearGradient>
+            <circle fill="url(#gradient)" cx="36" cy="36" r="20"/>
+          </svg> 
+<!-- </marquee> -->
+</body>
+</html>

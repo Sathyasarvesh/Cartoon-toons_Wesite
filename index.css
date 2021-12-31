@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    /* background: linear-gradient( to left top, #42275a, #734b6d); */
+    /* background:linear-gradient(-90deg,#a03df1,#185a9d,#43cea2,#42275a ,#b87ee7,#0281a8,#43cea2); */
+    /* background-color: rgb(180, 155, 121); */
+    /* background: linear-gradient(30deg,rgb(134, 134, 3),rgb(2, 102, 129)); */
+    /* background: linear-gradient(-90deg,red,yellow); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#home{
+        font-family: myFirstFont;
+        src: url(sansation_light.woff);
+}
+#image{
+    background-image:url('https://media1.giphy.com/media/fxeeuml8GaESfmuE4z/giphy-downsized-large.gif'); background-repeat:repeat;
+}
+#header a{
+padding-right: 20px;
+/* justify-content: center; */
+}
+header{
+    font-weight: bold;
+    /* font-size: large; */
+}.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+#one{
+        transition: 1s;
+        padding: 5px;
+    }
+     
+    #one:hover {
+        filter: drop-shadow(4px 4px 6px rgb(92, 91, 91));
+        transform: scale(1.1);
+        background-color: rgb(29, 28, 28);
+    }
